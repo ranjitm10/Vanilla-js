@@ -4,14 +4,11 @@
 // alert("let start vanilla js and dont stop")
 
 var buttont = document.querySelector(".button");
-var txtinput = document.querySelector(".txtarea");
-var input = document.querySelector(".btn-primary");
-var output = document.querySelector("#input-btn");
-document.querySelector("input[name=attritunjse]");
+var txt = document.querySelector("#txt-area");
+var out = document.querySelector("#output");
+
 
 buttont.addEventListener("click", function abc() {
-    console.log("LET see it working!");
-    console.log(txtinput.value);
-    console.log(input);
-    console.log(output);
+    out.innerText = "heheh  " + txt.value;
+    console.log(out.innerText)
 })
